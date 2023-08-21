@@ -1,7 +1,8 @@
 <h2 align="center">Aprendendo C</h2>
 Repositório dedicado para auxiliar nos meus estudos na linguagem C para a disciplina de Programação Procedural e Estrutura de Dados da faculdade.
 
-<br><br>
+<br>
+<br>
 
 <details>
 <summary>Fundamentos</summary>
