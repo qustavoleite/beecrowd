@@ -13,7 +13,7 @@ Repositório dedicado para auxiliar nos meus estudos na linguagem C para a disci
 |Variáveis|✅|
 |Funções||
 |Manipulando dados||
-|Expressões e operadores||
+|Expressões e operadores|✅|
 |Condicionais e controle de fluxo||
 |Estruturas de repetição||
 <!-- |[exemplo](#)|✅| -->

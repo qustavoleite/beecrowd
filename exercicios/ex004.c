@@ -1,51 +1,48 @@
 #include <stdio.h>
 
-void main () {
-    char nome[30];
-    char sexo;
-    float nota;
+void main() {
+    char nome[20], nome2[20], nome3[20];
+    char sexo, sexo2, sexo3;
+    float nota, nota2, nota3;
 
-    char nome2[30];
-    char sexo2;
-    float nota2;
+    printf("\nCadastrando a primeira pessoa:\n");
+    printf("-------------------------------\n");
 
-    char nome3[30];
-    char sexo3;
-    float nota3;
-
-    printf("NOME:");
+    fflush(stdin);
+    printf("NOME: ");
     gets(nome);
-    printf("SEXO [M/F]:");
-    fflush(stdin);
+    printf("SEXO [M/F]: ");
     sexo = getchar();
-    printf("NOTA:");
-    fflush(stdin);
+    printf("NOTA: ");
     scanf("%f", &nota);
 
+    printf("\nCadastrando a segunda pessoa:\n");
+    printf("-------------------------------\n");
+
     fflush(stdin);
-    printf("NOME:");
+    printf("NOME: ");
     gets(nome2);
-    printf("SEXO [M/F]:");
-    fflush(stdin);
+    printf("SEXO [M/F]: ");
     sexo2 = getchar();
-    printf("NOTA:");
-    fflush(stdin);
+    printf("NOTA: ");
     scanf("%f", &nota2);
 
+    printf("\nCadastrando a terceira pessoa:\n");
+    printf("-------------------------------\n");
+
     fflush(stdin);
-    printf("NOME:");
+    printf("NOME: ");
     gets(nome3);
-    printf("SEXO [M/F]:");
-    fflush(stdin);
+    printf("SEXO [M/F]: ");
     sexo3 = getchar();
-    printf("NOTA:");
-    fflush(stdin);
+    printf("NOTA: ");
     scanf("%f", &nota3);
 
-    printf("Listagem Completa\n");
-    printf("-------------------------\n");
-    printf("NOME \t \t SEXO NOTA\n");
-    printf("%s \t %c %.2f\n", nome, sexo, nota);
-    printf("%s \t %c %.2f\n", nome2, sexo2, nota2);
-    printf("%s \t %c %.2f\n", nome3, sexo3, nota3);
+    printf("\nListagem Completa\n");
+    printf("--------------------------------\n");
+    printf("NOME                SEXO NOTA\n");
+    printf("%-20s %c %6.1f\n", nome, sexo, nota);
+    printf("%-20s %c %6.1f\n", nome2, sexo2, nota2);
+    printf("%-20s %c %6.1f\n", nome3, sexo3, nota3);
+    printf("--------------------------------");
 }
