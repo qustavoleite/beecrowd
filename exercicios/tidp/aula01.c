@@ -6,9 +6,10 @@ void main () {
    scanf("%f", &vrCompra);
 
    if (vrCompra < 50) {
-        vrLucro = vrCompra * 0.5;
+     //vrLucro = vrCompra * 50/100
+     vrLucro = vrCompra * 0.5;
    } else {
-        vrLucro = vrCompra * 0.4;
+     vrLucro = vrCompra * 0.4;
    }
 
    vrVenda = vrCompra + vrLucro;
