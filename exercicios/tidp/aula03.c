@@ -1,3 +1,5 @@
+/*crie um programa que leia um número inteiro e mostre se ele é par ou impar*/
+
 #include <stdio.h>
 
 int main () {
@@ -13,5 +15,5 @@ int main () {
     return 0;
 }
 
-//pares sempre iguais a 0
-//impares sempre diferente de zero
+//par quando o rsto da divisão é 0
+//impares quando o resto da divisão é 1

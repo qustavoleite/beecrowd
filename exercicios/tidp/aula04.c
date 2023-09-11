@@ -9,8 +9,8 @@ int main () {
         scanf("%d", &numero);
 
         if (numero % 2 == 0) {
-            //numero = numero * 2;
             numero *= 2;
+            //numero = numero * 2;
         } else {
             numero *= 3;
         }

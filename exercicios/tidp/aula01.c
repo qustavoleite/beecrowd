@@ -1,3 +1,5 @@
+/*quando um certo comerciante compa um produto ele vende o mesmo com um lucro de 50% se o valor da compra for menor que $50,00; caso contrário , o lucro será de 40%. Crie um progrma que ajude esse comerciante a calcular o valor de venda.*/
+
 #include <stdio.h>
 
 void main () {
