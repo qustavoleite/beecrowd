@@ -1,0 +1,1 @@
+/*O doutor chapatin reclamou que o programa na linguagem C que você fez para calcular o fatorial deum número deveria ter usado uma sub-rotina que recebesse um número inteiro e retornasse o número que representa o resultado do fatorial do numero enviado como parâmetro. INCOMPLETA*/

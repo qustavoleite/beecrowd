@@ -4,7 +4,7 @@
 
 void main () {
     int i, numero;
-    int contador = 0; // contabiliza a quantidade de vezes conseguimos dividir o numero por numeros menores que ele 
+    int contador = 0; // contabiliza a quantidade de vezes que conseguimos dividir o numero por numeros menores que ele, porque numero primo so diide por 1 e ele mesmo.
     scanf("%d", &numero);
 
     for(i = 1; i <= numero; i++){
