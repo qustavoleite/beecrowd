@@ -1,1 +1,19 @@
-/*O doutor chapatin reclamou que o programa na linguagem C que você fez para calcular o fatorial deum número deveria ter usado uma sub-rotina que recebesse um número inteiro e retornasse o número que representa o resultado do fatorial do numero enviado como parâmetro. INCOMPLETA*/
+#include <stdio.h>
+
+int calcFatorial(int numero){
+    int fatorial, i;
+    fatorial = numero;
+    for (i = numero-1; i >= 1; i--){
+        fatorial *= i;
+    }
+    return fatorial;
+}
+
+int main() {
+    int numero, resultado;
+    printf("digite um numero: ");
+    scanf("%d", &numero);
+    resultado = calcFatorial(numero);
+    printf("o fatorial de %d e %d", numero,  resultado);
+    return 0;
+}

@@ -11,11 +11,11 @@ Repositório dedicado para auxiliar nos meus estudos na linguagem C para a disci
 |---|---|
 |Tipos de dados|✅|
 |Variáveis|✅|
-|Funções||
+|Funções|✅|
 |Manipulando dados||
 |Expressões e operadores|✅|
 |Condicionais e controle de fluxo|✅|
-|Estruturas de repetição||
+|Estruturas de repetição|✅|
 <!-- |[exemplo](#)|✅| -->
 </details>
 

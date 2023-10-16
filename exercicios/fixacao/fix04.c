@@ -1,4 +1,5 @@
 //mostre a serie Fibonacci ate a posição informada pelo usuario
+
 #include <stdio.h>
 
 int main() {

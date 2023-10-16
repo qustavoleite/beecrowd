@@ -22,4 +22,5 @@ void main () {
     } else {
         printf("%d eh primo", numero);
     }
+    return 0;
 }

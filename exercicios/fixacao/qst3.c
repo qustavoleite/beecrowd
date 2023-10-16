@@ -13,11 +13,8 @@ int main() {
         return 1;
     }
 
-    printf("Digite o valor de B: ");
-    scanf("%d", &B);
-
-    printf("Digite o valor de C: ");
-    scanf("%d", &C);
+    printf("Digite o valor de B e C: ");
+    scanf("%d%d", &B, &C);
 
     if (B > C) {
         printf("B deve ser menor ou igual a C.\n");
@@ -26,7 +23,6 @@ int main() {
 
     printf("Os numeros divisiveis por %d entre %d e %d sao:\n", A, B, C);
 
-    // Loop para verificar e imprimir os números divisíveis por A entre B e C
     for (int i = B; i <= C; i++) {
         if (i % A == 0) {
             printf("%d\n", i);

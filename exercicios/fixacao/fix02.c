@@ -1,7 +1,6 @@
 /*calculo o valor do pagamento de uma parcela em atraso cobrando juros de 0.5% ao dia
 
 Valor a Pagar = Valor Original + (Valor Original * Taxa de Juros Diária * Número de Dias em Atraso)
-
 */
 
 #include <stdio.h>
